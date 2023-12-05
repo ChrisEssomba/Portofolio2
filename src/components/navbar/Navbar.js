@@ -16,6 +16,7 @@ const Navbar = () => {
       </div>
       <div>
         <ul className="hidden mdl:inline-flex items-center gap-6 lg:gap-10">
+
           {navLinksdata.map(({ _id, title, link }) => (
             <li
               className="text-base font-normal text-gray-400 tracking-wide cursor-pointer hover:text-designColor duration-300"
@@ -44,10 +45,14 @@ const Navbar = () => {
           <div className="w-[80%] h-screen overflow-scroll absolute top-0 left-0 bg-gray-900 p-4 scrollbar-hide">
             <div className="flex flex-col gap-8 py-2 relative">
               <div>
-                <img className="w-32" src={logo} alt="logo" />
-                <p className="text-sm text-gray-400 mt-2">
-                "I am a passionate MERN stack developer and machine learning enthusiast. With a strong foundation in web development and a keen eye for data, I create innovative solutions that bridge technology and user experience."
-                </p>
+
+                <br>
+                </br>
+                <br>
+                </br>
+                <br>
+                </br>
+              
               </div>
               <ul className="flex flex-col gap-4">
                 {navLinksdata.map((item) => (
@@ -71,7 +76,7 @@ const Navbar = () => {
               </ul>
               <div className="flex flex-col gap-4">
                 <h2 className="text-base uppercase font-titleFont mb-4">
-                  Find me in
+                  Retrouvez moi sur :
                 </h2>
                 <div className="flex gap-4">
                   <span className="bannerIcon">
