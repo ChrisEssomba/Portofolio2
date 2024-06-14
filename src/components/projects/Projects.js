@@ -5,6 +5,7 @@ import ProjectsCard from './ProjectsCard';
 import RapportDeProjetCovid from '../../assets/reports/RapportDeProjetCovid.pdf';
 import RapportDeProjetLoan from '../../assets/reports/RapportDeProjetLoan.pdf';
 import RapportProjetSondage from '../../assets/reports/RapportProjetSondage.pdf';
+import spanishCerfificate from '../../assets/reports/spanishCerfificate.pdf';
 
 
 const Projects = () => {
@@ -34,7 +35,8 @@ const Projects = () => {
           title="Visualisation des informations clés sur le COVID-19 sur Tableau"
           des=" Ce projet visait à présenter de manière claire et concise les informations les plus pertinentes issues de l'analyse des statistiques de la COVID-19. L'objectif principal était d'utiliser des tableaux interactifs pour visualiser ces données de manière accessible et compréhensible.
         " src={projectTwo}
-          githubLink="https://github.com/ChrisEssomba/Analyse-des-donnees-de-la-Covid-19"
+          //githubLink="https://github.com/ChrisEssomba/Analyse-des-donnees-de-la-Covid-19"
+          githubLink={spanishCerfificate}
           websiteLink="https://public.tableau.com/app/profile/chris.essomba/viz/CovidDeathsVisualization_16845886904710/Tableaudebord1"
         />
         <ProjectsCard
