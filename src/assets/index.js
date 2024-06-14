@@ -13,7 +13,7 @@ import quote from "./images/testmonial/quote.png";
 import contactImg from "./images/contact/contactImg.png";
 
 export {
-  logo,
+ // logo,
   bannerImg,
   projectOne,
   projectTwo,
