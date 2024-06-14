@@ -1,5 +1,5 @@
 //import logo from "./images/logo.png"; je masque le logo
-//import bannerImg from "./images/mafoto.jpeg"; je masque ma photo
+import bannerImg from "./images/mafoto.jpeg"; 
 import projectOne from "./images/projects/covidA.png";
 import projectTwo from "./images/projects/covid.png";
 import projectThree from "./images/projects/credit.png";
