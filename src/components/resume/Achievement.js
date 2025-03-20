@@ -16,7 +16,7 @@ const Achievement = () => {
         </div>
         <div className="mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
           <ResumeCard
-            title="Les restos du coeur"
+            title="Les restos du coeur "
             subTitle="(06/10/2022 - 05/10/2023) [12 months]"
             
             des="En tant que bénévole, j'ai eu l'occasion de contribuer à diverses missions au sein de notre centre. Parmi celles-ci, j'ai participé activement à la distribution de repas aux bénéficiaires, me permettant ainsi de mieux comprendre leur situation et de leur offrir un peu de réconfort."
