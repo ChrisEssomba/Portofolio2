@@ -1,8 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import ProjectsCard from './ProjectsCard';
-import projectOne from "../../assets/projectOne";
-import projectFour from "../../assets/projectFour";
+import { projectOne, projectFour} from "../../assets/index";
 import RapportDeProjetCovid from '../../assets/reports/RapportDeProjetCovid.pdf';
 import RapportProjetSondage from '../../assets/reports/RapportProjetSondage.pdf';
 
@@ -17,7 +16,7 @@ const DataAnalysis = () => {
         <div className="py-6 font-titleFont flex flex-col gap-4">
           <h2 className="text-4xl font-bold">Data Analysis</h2>
         </div>
-        <div className="mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
+        <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 xl:gap-14">
           <ProjectsCard
             title="Analyse des statistiques de la Covid 19 sur Jupyter NoteBook et PostgreSQL"
             des="Ce projet avait pour objectif d'effectuer une analyse approfondie des données relatives à la pandémie de COVID-19, en se concentrant sur la réponse à des questions et problématiques telles que : Quels sont les facteurs qui influencent la propagation et la gravité du COVID-19 ? Quel est l'impact de la vaccination sur la propagation et la mortalité liées au virus ?"
@@ -26,6 +25,20 @@ const DataAnalysis = () => {
             websiteLink={RapportDeProjetCovid}
           />
           <ProjectsCard
+            title="Analyse des données d'un sondage sur les professionnels de la data avec Power BI."
+            des="Dans ce projet captivant, j'ai exploité un sondage auprès de 630 professionnels de la data pour découvrir les tendances et les facteurs clés qui influencent les salaires. En utilisant Power BI, j'ai créé des visualisations percutantes pour identifier les métiers les mieux rémunérés, les langages de programmation les plus populaires et les préférences professionnelles. Les résultats ont révélé des insights passionnants sur l'impact du pays de travail sur les salaires. Une analyse approfondie qui ouvre de nouvelles perspectives dans le monde de la data."
+            src={projectFour}
+            githubLink="https://github.com/ChrisEssomba/Analyse-de-Sondage"
+            websiteLink={RapportProjetSondage}
+          />
+                 <ProjectsCard
+            title="Analyse des données d'un sondage sur les professionnels de la data avec Power BI."
+            des="Dans ce projet captivant, j'ai exploité un sondage auprès de 630 professionnels de la data pour découvrir les tendances et les facteurs clés qui influencent les salaires. En utilisant Power BI, j'ai créé des visualisations percutantes pour identifier les métiers les mieux rémunérés, les langages de programmation les plus populaires et les préférences professionnelles. Les résultats ont révélé des insights passionnants sur l'impact du pays de travail sur les salaires. Une analyse approfondie qui ouvre de nouvelles perspectives dans le monde de la data."
+            src={projectFour}
+            githubLink="https://github.com/ChrisEssomba/Analyse-de-Sondage"
+            websiteLink={RapportProjetSondage}
+          />
+                  <ProjectsCard
             title="Analyse des données d'un sondage sur les professionnels de la data avec Power BI."
             des="Dans ce projet captivant, j'ai exploité un sondage auprès de 630 professionnels de la data pour découvrir les tendances et les facteurs clés qui influencent les salaires. En utilisant Power BI, j'ai créé des visualisations percutantes pour identifier les métiers les mieux rémunérés, les langages de programmation les plus populaires et les préférences professionnelles. Les résultats ont révélé des insights passionnants sur l'impact du pays de travail sur les salaires. Une analyse approfondie qui ouvre de nouvelles perspectives dans le monde de la data."
             src={projectFour}

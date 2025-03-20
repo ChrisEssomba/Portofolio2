@@ -1,7 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import ProjectsCard from './ProjectsCard';
-import projectThree from "../../assets/projectThree";
+import {projectThree} from "../../assets/index";
 import RapportDeProjetLoan from '../../assets/reports/RapportDeProjetLoan.pdf';
 
 const DataScience = () => {
@@ -15,7 +15,7 @@ const DataScience = () => {
         <div className="py-6 font-titleFont flex flex-col gap-4">
           <h2 className="text-4xl font-bold">Data Science</h2>
         </div>
-        <div className="mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
+        <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 xl:gap-14">
           <ProjectsCard
             title="Simulateur de décision de crédit"
             des="Découvrez notre projet de portefeuille dans lequel nous avons développé un modèle de prédiction des décisions de crédit en utilisant l'algorithme d'apprentissage automatique de l'arbre de décision. Ensuite, nous avons créé une interface intuitive qui permet aux utilisateurs de fournir des informations clés et de déterminer instantanément leur éligibilité à un crédit en utilisant le Framework Flask."

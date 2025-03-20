@@ -1,7 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import ProjectsCard from './ProjectsCard';
-import projectTwo from "../../assets/projectTwo";
+import { projectTwo} from "../../assets/index";
 import spanishCerfificate from '../../assets/reports/spanishCerfificate.pdf';
 
 const DataEngineering = () => {
@@ -15,7 +15,7 @@ const DataEngineering = () => {
         <div className="py-6 font-titleFont flex flex-col gap-4">
           <h2 className="text-4xl font-bold">Data Engineering</h2>
         </div>
-        <div className="mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
+        <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 xl:gap-14">
           <ProjectsCard
             title="Visualisation des informations clés sur le COVID-19 sur Tableau"
             des="Ce projet visait à présenter de manière claire et concise les informations les plus pertinentes issues de l'analyse des statistiques de la COVID-19. L'objectif principal était d'utiliser des tableaux interactifs pour visualiser ces données de manière accessible et compréhensible."
