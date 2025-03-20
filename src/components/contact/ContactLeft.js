@@ -15,7 +15,7 @@ const ContactLeft = () => {
       <div className="flex flex-col gap-1">
         <h3 className="text-3xl font-bold text-white">Chris Essomba</h3>
         <p className="text-lg font-normal text-gray-400">Data Scientist</p>
-        <p className="text-base text-gray-400 tracking-wide">Votre futur alternant</p>
+        <p className="text-base text-gray-400 tracking-wide">Votre prochain atout en data et IA</p>
         <p className="text-base text-gray-400 flex items-center gap-2">
           Phone: <span className="text-lightText">+33 secret 🤫</span>
         </p>
