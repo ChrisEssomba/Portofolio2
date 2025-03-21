@@ -26,7 +26,19 @@ const LeftBanner = () => {
           />
         </h2>
         <p className="text-base font-bodyFont leading-6 tracking-wide">
-      En 
+        <b>Pourquoi moi ?</b>
+        </p>
+        <p className="text-base font-bodyFont leading-6 tracking-wide">
+        ✔️ Un jeune ingénieur motivé, fraîchement diplômé, avec 2 ans d'expérience combinant alternance et stages.
+        </p>
+        <p className="text-base font-bodyFont leading-6 tracking-wide">
+        ✔️ Un esprit curieux et dynamique qui aime relever les défis et s’adapter rapidement à de nouveaux environnements.
+        </p>
+        <p className="text-base font-bodyFont leading-6 tracking-wide">
+        ✔️ Un professionnel trilingue (français, anglais, espagnol), à l’aise dans un contexte international.
+        </p>
+        <p className="text-base font-bodyFont leading-6 tracking-wide">
+        ✔️ Un passionné de data et d’IA, toujours en quête d’amélioration à travers des projets personnels et open source.
           </p>
       </div>
      {/* Media */}
