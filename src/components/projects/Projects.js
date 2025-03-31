@@ -3,11 +3,13 @@ import Title from '../layouts/Title';
 import DataScience from './DataScience';
 import DataAnalysis from './DataAnalysis';
 import DataEngineering from './DataEngineering';
+import OpenSource from './OpenSource';
 
 const Projects = () => {
   const [dataScienceData, setDataScienceData] = useState(true);
   const [dataAnalysisData, setDataAnalysisData] = useState(false);
   const [dataEngineeringData, setDataEngineeringData] = useState(false);
+  const [OpenSourceData, setOpenSourceData] = useState(false);
 
   return (
     <section id="projects" className="w-full py-20 border-b-[1px] border-b-black">
@@ -15,12 +17,13 @@ const Projects = () => {
         <Title des="Mes Projets" />
       </div>
       <div>
-        <ul className="w-full grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3">
+        <ul className="w-full grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4">
           <li
             onClick={() =>
               setDataScienceData(true) &
               setDataAnalysisData(false) &
-              setDataEngineeringData(false)
+              setDataEngineeringData(false) &
+              setOpenSourceData(false)
             }
             className={`${
               dataScienceData
@@ -34,7 +37,8 @@ const Projects = () => {
             onClick={() =>
               setDataScienceData(false) &
               setDataAnalysisData(true) &
-              setDataEngineeringData(false)
+              setDataEngineeringData(false) &
+              setOpenSourceData(false)
             }
             className={`${
               dataAnalysisData
@@ -48,7 +52,8 @@ const Projects = () => {
             onClick={() =>
               setDataScienceData(false) &
               setDataAnalysisData(false) &
-              setDataEngineeringData(true)
+              setDataEngineeringData(true) &
+              setOpenSourceData(false)
             }
             className={`${
               dataEngineeringData
@@ -58,11 +63,27 @@ const Projects = () => {
           >
             Data Engineering
           </li>
+          <li
+            onClick={() =>
+              setDataScienceData(false) &
+              setDataAnalysisData(false) &
+              setDataEngineeringData(false) &
+              setOpenSourceData(true)
+            }
+            className={`${
+              OpenSourceData
+                ? "border-designColor rounded-lg"
+                : "border-transparent"
+            } resumeLi`}
+          >
+            Open Source
+          </li>
         </ul>
       </div>
       {dataScienceData && <DataScience />}
       {dataAnalysisData && <DataAnalysis />}
       {dataEngineeringData && <DataEngineering />}
+      {OpenSourceData && <OpenSource />}
     </section>
   );
 };
