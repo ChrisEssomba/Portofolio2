@@ -18,6 +18,22 @@ const DataAnalysis = () => {
           <h2 className="text-4xl font-bold">Data Analysis</h2>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 xl:gap-14">
+        <ProjectsCard
+            title="Cartographie Interactive de la Criminalité en France"
+
+            des={`Ce projet propose une visualisation interactive de la criminalité en France. Chaque département est coloré selon son indice de criminalité, offrant une lecture rapide des disparités régionales.
+
+              En sélectionnant un département, on accède à des données détaillées :
+              🔹 Types de délits les plus fréquents
+              🔹 Évolution de l’indice de criminalité sur trois ans
+              🔹 Autres statistiques clés
+              `}
+
+          src={projectSeven} /*image à mettre*/
+            /*githubLink={}*/
+            websiteLink="https://stat-delits.streamlit.app/"
+          />
+          
           <ProjectsCard
             title="Analyse statistique des données de la Covid 19 sur Jupyter NoteBook et PostgreSQL"
             des={`Ce projet vise à exploiter les données officielles de la pandémie pour répondre à des questions clés comme :
@@ -42,21 +58,6 @@ const DataAnalysis = () => {
             src={projectFour}
             githubLink="https://github.com/ChrisEssomba/Analyse-de-Sondage"
             websiteLink={RapportProjetSondage}
-          />
-           <ProjectsCard
-            title="Cartographie Interactive de la Criminalité en France"
-
-            des={`Ce projet propose une visualisation interactive de la criminalité en France. Chaque département est coloré selon son indice de criminalité, offrant une lecture rapide des disparités régionales.
-
-              En sélectionnant un département, on accède à des données détaillées :
-              🔹 Types de délits les plus fréquents
-              🔹 Évolution de l’indice de criminalité sur trois ans
-              🔹 Autres statistiques clés
-              `}
-
-          src={projectSeven} /*image à mettre*/
-            /*githubLink={}*/
-            websiteLink="https://stat-delits.streamlit.app/"
           />
             <ProjectsCard
             title="Tableau de Bord COVID-19 sur Tableau"

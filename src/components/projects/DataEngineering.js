@@ -1,7 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import ProjectsCard from './ProjectsCard';
-import { projectTwo} from "../../assets/index";
+import {projectTen} from "../../assets/index";
 import spanishCerfificate from '../../assets/reports/spanishCerfificate.pdf';
 
 const DataEngineering = () => {
@@ -17,11 +17,11 @@ const DataEngineering = () => {
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 xl:gap-14">
           <ProjectsCard
-            title="Visualisation des informations clés sur le COVID-19 sur Tableau"
-            des="Ce projet visait à présenter de manière claire et concise les informations les plus pertinentes issues de l'analyse des statistiques de la COVID-19. L'objectif principal était d'utiliser des tableaux interactifs pour visualiser ces données de manière accessible et compréhensible."
-            src={projectTwo}
-            githubLink={spanishCerfificate}
-            websiteLink="https://public.tableau.com/app/profile/chris.essomba/viz/CovidDeathsVisualization_16845886904710/Tableaudebord1"
+            title="Pipeline de Visualisation des Cryptomonnaies en Temps Réel"
+            des="Il s'agit d'une application qui récupère et affiche en temps réel les dernières données sur les cryptomonnaies via une API. Développée avec Flask, elle est déployée à l’aide de Docker et Azure Kubernetes pour assurer scalabilité et performance"
+            src={projectTen}
+            githubLink="https://github.com/ChrisEssomba/App1CloudComputing"
+            websiteLink="https://github.com/ChrisEssomba/App1CloudComputing"
           />
         </div>
       </div>

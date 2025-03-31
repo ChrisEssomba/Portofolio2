@@ -1,7 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import ProjectsCard from './ProjectsCard';
-import {projectThree} from "../../assets/index";
+import {projectThree, projectNine} from "../../assets/index";
 import RapportDeProjetLoan from '../../assets/reports/RapportDeProjetLoan.pdf';
 
 const DataScience = () => {
@@ -16,15 +16,24 @@ const DataScience = () => {
           <h2 className="text-4xl font-bold">Data Science</h2>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 xl:gap-14">
+        <ProjectsCard
+            title="Prédiction de Résiliation d’Abonnement"
+            des="Ce projet utilise des modèles de machine learning de classification pour identifier les clients les plus susceptibles de résilier leur abonnement. L’objectif est d’aider les entreprises à améliorer leurs services et à renforcer la fidélisation de leur clientèle."
+             src={projectNine}
+            githubLink="https://github.com/ChrisEssomba/Customer_Churn_Prediction"
+            websiteLink="https://github.com/ChrisEssomba/Customer_Churn_Prediction"
+          />
           <ProjectsCard
             title="Simulateur de décision de crédit"
-            des="Découvrez notre projet de portefeuille dans lequel nous avons développé un modèle de prédiction des décisions de crédit en utilisant l'algorithme d'apprentissage automatique de l'arbre de décision. Ensuite, nous avons créé une interface intuitive qui permet aux utilisateurs de fournir des informations clés et de déterminer instantanément leur éligibilité à un crédit en utilisant le Framework Flask."
+            des="Ce projet combine apprentissage automatique et accessibilité. Grâce à un modèle basé sur un arbre de décision, il évalue l’éligibilité au crédit. Une interface intuitive, développée avec Flask, permet aux utilisateurs d’entrer leurs informations et d’obtenir une réponse instantanée."
             src={projectThree}
             githubLink="https://github.com/ChrisEssomba/Modelisation-Predictive-Decision-Credit"
             websiteLink={RapportDeProjetLoan}
           />
         </div>
+        
       </div>
+    
     </motion.div>
   );
 };
