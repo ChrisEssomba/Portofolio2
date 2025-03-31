@@ -29,9 +29,10 @@ const ProjectsCard = ({ title, des, src,githubLink,websiteLink }) => {
               </span>
             </div>
           </div>
-          <p className="text-sm tracking-wide mt-3 hover:text-gray-100 duration-300">
+          <p style={{ whiteSpace: "pre-line" }} className="text-sm tracking-wide mt-3 hover:text-gray-100 duration-300">
             {des}
           </p>
+      
         </div>
       </div>
     </div>
