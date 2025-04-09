@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
 import Title from '../layouts/Title';
-import DataScience from './DataScience.js';
-import DataAnalysis from './DataAnalysis.js';
-import DataEngineering from './DataEngineering.js';
-import OpenSource from './OpenSource';
+import DataScience from '../projects/DataScience';
+import DataAnalysis from '../projects/DataAnalysis';
+import DataEngineering from '../projects/DataEngineering';
+import OpenSource from '../projects/OpenSource';
 
 const Projects = () => {
   const [dataScienceData, setDataScienceData] = useState(true);
