@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import Title from '../layouts/Title';
-import DataScience from './DataScience';
+import DataScience from 'DataScience';
 import DataAnalysis from '../projects/DataAnalysis';
 import DataEngineering from '../projects/DataEngineering';
 import OpenSource from '../projects/OpenSource';
