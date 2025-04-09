@@ -2,7 +2,7 @@ import React from "react";
 import { motion } from "framer-motion";
 import ProjectsCard from './ProjectsCard';
 import {projectTen} from "../../assets/index";
-import spanishCerfificate from '../../assets/reports/spanishCerfificate.pdf';
+//import spanishCerfificate from '../../assets/reports/spanishCerfificate.pdf';
 
 const DataEngineering = () => {
   return (

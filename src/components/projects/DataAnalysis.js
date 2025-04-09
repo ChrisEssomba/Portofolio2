@@ -4,7 +4,7 @@ import ProjectsCard from './ProjectsCard';
 import { projectOne,projectTwo, projectFour, projectSeven} from "../../assets/index";
 import RapportDeProjetCovid from '../../assets/reports/RapportDeProjetCovid.pdf';
 import RapportProjetSondage from '../../assets/reports/RapportProjetSondage.pdf';
-import spanishCerfificate from '../../assets/reports/spanishCerfificate.pdf';
+//import spanishCerfificate from '../../assets/reports/spanishCerfificate.pdf';
 
 const DataAnalysis = () => {
   return (

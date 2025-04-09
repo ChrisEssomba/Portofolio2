@@ -1,6 +1,8 @@
 import React from 'react';
-import { FaLinkedinIn, FaReact, FaNodeJs, FaFilePdf } from 'react-icons/fa';
-import { SiMongodb, SiExpress, SiGithub, SiGmail } from 'react-icons/si';
+/*import { FaLinkedinIn, FaReact, FaNodeJs, FaFilePdf } from 'react-icons/fa';
+import { SiMongodb, SiExpress, SiGithub, SiGmail } from 'react-icons/si';*/
+import { FaLinkedinIn, FaFilePdf } from 'react-icons/fa'
+import { SiGithub, SiGmail } from 'react-icons/si';
 import cv from '../../assets/reports/CHRIS_ESSOMBA_CV.pdf';
 
 const Media = () => {

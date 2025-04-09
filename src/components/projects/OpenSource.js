@@ -1,9 +1,9 @@
 import React from "react";
 import { motion } from "framer-motion";
 import ProjectsCard from './ProjectsCard';
-import { projectOne, projectEight} from "../../assets/index";
-import RapportDeProjetCovid from '../../assets/reports/RapportDeProjetCovid.pdf';
-import RapportProjetSondage from '../../assets/reports/RapportProjetSondage.pdf';
+import {projectEight} from "../../assets/index";
+//import RapportDeProjetCovid from '../../assets/reports/RapportDeProjetCovid.pdf';
+//import RapportProjetSondage from '../../assets/reports/RapportProjetSondage.pdf';
 
 const OpenSource = () => {
   return (
