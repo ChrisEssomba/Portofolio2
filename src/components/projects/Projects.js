@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import Title from '../layouts/Title';
-import DataScience from './DataScience';
-import DataAnalysis from './DataAnalysis';
-import DataEngineering from './DataEngineering';
+import DataScience from './DataScience.js';
+import DataAnalysis from './DataAnalysis.js';
+import DataEngineering from './DataEngineering.js';
 import OpenSource from './OpenSource';
 
 const Projects = () => {
