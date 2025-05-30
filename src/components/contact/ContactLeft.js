@@ -1,8 +1,10 @@
 import React from 'react';
-import { FaLinkedinIn, FaFilePdf } from 'react-icons/fa';
+import { FaLinkedinIn, FaFilePdf, FaGraduationCap,FaLanguage } from 'react-icons/fa';
 import { SiGithub, SiGmail } from 'react-icons/si';
 import { contactImg } from '../../assets/index';
 import cv from '../../assets/reports/CHRIS_ESSOMBA_CV.pdf';
+import certificat_espagnol from '../../assets/reports/certificat_espagnol.pdf'
+import TOEIC_Essomba_Chris from '../../assets/reports/TOEIC_Essomba_Chris.pdf' 
 
 const ContactLeft = () => {
   return (
@@ -47,6 +49,16 @@ const ContactLeft = () => {
           <span className="bannerIcon" style={{ cursor: 'pointer' }}>
             <a href={cv} target="_blank" rel="noopener noreferrer">
               <FaFilePdf />
+            </a>
+          </span>
+          <span className="bannerIcon" style={{ cursor: 'pointer' }}>
+            <a href={certificat_espagnol} target="_blank" rel="noopener noreferrer">
+              <FaGraduationCap />
+            </a>
+          </span>
+          <span className="bannerIcon" style={{ cursor: 'pointer' }}>
+            <a href={TOEIC_Essomba_Chris} target="_blank" rel="noopener noreferrer">
+              <FaLanguage />
             </a>
           </span>
         </div>
