@@ -1,5 +1,6 @@
 //import logo from "./images/logo.png"; je masque le logo
 import bannerImg from "./images/mafoto.jpeg"; 
+import photoID from "./images/photoID.jpeg";
 import projectOne from "./images/projects/covidA.png";
 import projectTwo from "./images/projects/covid.png";
 import projectThree from "./images/projects/credit.png";
@@ -19,6 +20,7 @@ import contactImg from "./images/contact/contactImg.png";
 export {
  // logo,
   bannerImg,
+  photoID,
   projectOne,
   projectTwo,
   projectThree,
