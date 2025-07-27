@@ -1,7 +1,7 @@
 import React from 'react'
 import { useTypewriter, Cursor } from "react-simple-typewriter";
 /*import Media from './Media';*/
-import { photoID } from "../../assets/index"; // <-- Assure-toi que l'image existe bien à ce chemin
+import { photoID, cv_en, cv_fr} from "../../assets/index"; // <-- Assure-toi que l'image existe bien à ce chemin
 
 const LeftBanner = () => {
   const [text] = useTypewriter({
@@ -49,7 +49,7 @@ const LeftBanner = () => {
         {/* Buttons */}
         <div className="mt-8 flex flex-col sm:flex-row gap-4 justify-center">
           <a
-            href="/CV-ChrisEssomba.pdf"
+            href={cv_fr}
             target="_blank"
             rel="noopener noreferrer"
             className="px-6 py-3 bg-blue-600 hover:bg-blue-700 text-white font-semibold rounded-lg shadow-md transition"
@@ -65,7 +65,7 @@ const LeftBanner = () => {
             💻 Mon GitHub
           </a>
           <a
-            href="/CV-ChrisEssomba.pdf"
+            href={cv_en}
             target="_blank"
             rel="noopener noreferrer"
             className="px-6 py-3 bg-blue-600 hover:bg-blue-700 text-white font-semibold rounded-lg shadow-md transition"
