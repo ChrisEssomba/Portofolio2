@@ -20,8 +20,8 @@ import testimonialTwo from "./images/testmonial/testimonialTwo.jpeg";
 import testimonialThree from "./images/testmonial/testimonialThree.jpeg";
 import quote from "./images/testmonial/quote.png";
 import contactImg from "./images/contact/contactImg.png";
-import cv_en from "./images/reports/cv_en.pdf";
-import cv_fr from "./images/reports/cv_fr.pdf";
+import cv_en from "./reports/cv_en.pdf";
+import cv_fr from "./reports/cv_fr.pdf";
 export {
  // logo,
   bannerImg,
