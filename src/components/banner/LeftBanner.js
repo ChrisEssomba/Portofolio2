@@ -5,10 +5,10 @@ import { photoID } from "../../assets/index"; // <-- Assure-toi que l'image exis
 
 const LeftBanner = () => {
   const [text] = useTypewriter({
-    words: ["Data Scientist.", "Data Analyst.", "Data Engineer.", "Votre futur collaborateur 😉 "],
-    loop: true,
+    words: ["🎯 Le data scientist qui allie rigueur d’ingénieur et curiosité de chercheur.", "Data Scientist.", "Data Analyst.", "Data Engineer.", "Votre futur collaborateur 😉 "],
+    loop: false,
     typeSpeed: 20,
-    deleteSpeed: 10,
+    deleteSpeed: 10000000000, // Pour éviter la suppression du texte
     delaySpeed: 2000,
   });
 
@@ -54,7 +54,7 @@ const LeftBanner = () => {
             rel="noopener noreferrer"
             className="px-6 py-3 bg-blue-600 hover:bg-blue-700 text-white font-semibold rounded-lg shadow-md transition"
           >
-            📄 Télécharger mon CV
+            📄 Télécharger mon CV (FR)
           </a>
           <a
             href="https://github.com/ChrisEssomba"
@@ -63,6 +63,14 @@ const LeftBanner = () => {
             className="px-6 py-3 border border-blue-600 hover:bg-blue-600 hover:text-white text-blue-500 font-semibold rounded-lg transition"
           >
             💻 Mon GitHub
+          </a>
+          <a
+            href="/CV-ChrisEssomba.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="px-6 py-3 bg-blue-600 hover:bg-blue-700 text-white font-semibold rounded-lg shadow-md transition"
+          >
+            📄 Download my resume (EN)
           </a>
         </div>
 

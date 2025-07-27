@@ -11,6 +11,10 @@ import projectSeven from "./images/projects/projectSeven.png";
 import projectEight from "./images/projects/projectEight.jpg";
 import projectNine from "./images/projects/projectNine.webp";
 import projectTen from "./images/projects/ProjectTen.jpg";
+import projectFaceRec from "./images/projects/projetfacerec.jpg";
+import PtojectSummarizer from "./images/projects/PtojectSummarizer.png";
+import ProjectCreditApproval from "./images/projects/ProjectCreditApproval.png";
+import ProjectWebScraping from "./images/projects/ProjectWebScraping.gif";
 import testimonialOne from "./images/testmonial/testimonialOne.jpg";
 import testimonialTwo from "./images/testmonial/testimonialTwo.jpeg";
 import testimonialThree from "./images/testmonial/testimonialThree.jpeg";
@@ -36,4 +40,8 @@ export {
   testimonialThree,
   quote,
   contactImg,
+  projectFaceRec,
+  PtojectSummarizer,
+  ProjectCreditApproval,
+  ProjectWebScraping,
 };

@@ -18,8 +18,11 @@ const OpenSource = () => {
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 xl:gap-14">
           <ProjectsCard
-            title="Script python permettant de flouter des videos des visages en temps reél"
-            des="Ce projet Open vise à regrouper des scripts Python automatisant des tâches spécifiques, réutilisables dans d’autres projets. J’y ai contribué en partageant un script basé sur OpenCV et le deep learning, capable de détecter et flouter les visages sur des images, vidéos et flux webcam."
+            title="Floutage Automatique de Visages dans des Vidéos (Open CV)."
+            des={`Contribution à un projet open source visant à centraliser des scripts Python d'automatisation. J’y ai développé un module permettant de flouter automatiquement des visages sélectionnés dans des vidéos.
+
+              🔹 Technologies : Python, OpenCV, Numpy
+              `}
             src={projectEight}
             githubLink="https://github.com/ChrisEssomba/Python-Scripts/tree/new-script/Real-Time-Face-Blurring-Tool"
             websiteLink="https://github.com/ChrisEssomba/Python-Scripts/tree/new-script/Real-Time-Face-Blurring-Tool"

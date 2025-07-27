@@ -21,14 +21,11 @@ const DataAnalysis = () => {
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 xl:gap-14">
         <ProjectsCard
-            title="Cartographie Interactive de la Criminalité en France"
+            title="Cartographie du Taux de Criminalité en France par Département (Python - Streamlit)"
 
-            des={`Ce projet propose une visualisation interactive de la criminalité en France. Chaque département est coloré selon son indice de criminalité, offrant une lecture rapide des disparités régionales.
-
-              En sélectionnant un département, on accède à des données détaillées :
-              🔹 Types de délits les plus fréquents
-              🔹 Évolution de l’indice de criminalité sur trois ans
-              🔹 Autres statistiques clés
+            des={`Ce projet combine l’analyse exploratoire de données et la visualisation interactive pour afficher les niveaux de risque criminel en France sous forme de carte dynamique.
+              
+              🔹 Technologies : Python, Pandas, Plotly, maplotlib, Jupyter Notebook, GeoJSON, Streamlit, Git
               `}
 
           src={projectSeven} /*image à mettre*/
@@ -37,39 +34,41 @@ const DataAnalysis = () => {
           />
           
           <ProjectsCard
-            title="Analyse statistique des données de la Covid 19 sur Jupyter NoteBook et PostgreSQL"
-            des={`Ce projet vise à exploiter les données officielles de la pandémie pour répondre à des questions clés comme :
+            title="Analyse et Visualisation des Données COVID-19 (Tableau Public)."
+            des={`Ce projet analyse l’impact de la pandémie de COVID-19 à travers l'étude des tendances clés, facilitant l’analyse de l’évolution de la pandémie et l'impact de la vaccination.
 
-              🔹 Quels facteurs ont influencé la propagation et la gravité du COVID-19 ?
-              🔹 Quel a été l’impact de la vaccination sur la transmission et la mortalité ?
-
-              L’analyse permet de mieux comprendre les dynamiques de la pandémie et l’efficacité des mesures de prévention.`}
+              🔹 Technologies : Python, SQL, Tableau
+              `}
          
             src={projectOne}
             githubLink="https://github.com/ChrisEssomba/Analyse-des-donnees-de-la-Covid-19"
             websiteLink={RapportDeProjetCovid}
+            //websiteLink="https://public.tableau.com/app/profile/chris.essomba/viz/CovidDeathsVisualization_16845886904710/Tableaudebord1"
+        
           />
           <ProjectsCard
-            title="Analyse du Marché de la Data sur PowerBI."
-            des={`Dans le but d’approfondir ma compréhension du marché de la Data, j’ai mené une analyse basée sur les données d’un sondage réalisé auprès de professionnels du domaine. Cette étude vise a éclairer des intérrogations telles que :
-              
-              🔹 Quelles sont les compétences les plus demandées selon les secteurs ?
-              🔹 Comment les fourchettes salariales évoluent-elles en fonction du métier, de l’expérience et du secteur ?
+            title="Analyse comparative de métiers de la Data (Power BI)."
+            des={`Ce projet exploite les résultats d’un sondage auprès de professionnels de la data pour mieux comprendre les tendances en matière de salaires, de technologies, de formation et de secteurs dans le domaine de la data.
+
+              🔹 Technologies : Excel (Power Query), Power BI, SQL
                 `}
             
             src={projectFour}
             githubLink="https://github.com/ChrisEssomba/Analyse-de-Sondage"
             websiteLink={RapportProjetSondage}
           />
-            <ProjectsCard
+          {/*
+          <ProjectsCard
             title="Tableau de Bord COVID-19 sur Tableau"
             des={`Ce tableau de bord offre une visualisation des informations essentielles issues des données de la pandémie de COVID-19. 
-            Il met en évidence les tendances clés, facilitant l’analyse de l’évolution de la pandémie et de ses impacts."
-              `}
+            Il met en évidence les tendances clés, facilitant l’analyse de l’évolution de la pandémie et de ses impacts."`}
             src={projectTwo}
-            /*githubLink={}*/
-            websiteLink="https://public.tableau.com/app/profile/chris.essomba/viz/CovidDeathsVisualization_16845886904710/Tableaudebord1"
+            // githubLink={}
+             websiteLink="https://public.tableau.com/app/profile/chris.essomba/viz/CovidDeathsVisualization_16845886904710/Tableaudebord1"
+
           />
+          */}
+       
       
         </div>
       </div>

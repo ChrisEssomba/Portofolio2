@@ -1,7 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import ProjectsCard from './ProjectsCard';
-import {projectThree, projectNine} from "../../assets/index";
+import { projectNine, projectFaceRec, PtojectSummarizer, ProjectCreditApproval} from "../../assets/index";
 import RapportDeProjetLoan from '../../assets/reports/RapportDeProjetLoan.pdf';
 
 const DataScience = () => {
@@ -17,18 +17,44 @@ const DataScience = () => {
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 xl:gap-14">
         <ProjectsCard
-            title="Prédiction de Résiliation d’Abonnement"
-            des="Ce projet utilise des modèles de machine learning de classification pour identifier les clients les plus susceptibles de résilier leur abonnement. L’objectif est d’aider les entreprises à améliorer leurs services et à renforcer la fidélisation de leur clientèle."
-             src={projectNine}
+            title="Prédiction de Résiliation d’Abonnement (Classification)"
+            des={`Comprendre et prédire les résiliations permet aux entreprises d’agir avant qu’il ne soit trop tard. Ce projet utilise l’analyse de données et le machine learning pour construire un système de détection du churn.
+            
+              🔹 Technologies : Python, Logistic Regression, Random Forest Classifier, XGBoost Classifier, plotly, GridSearchCV, Streamlit, Git 
+              `}
+            src={projectNine}
             githubLink="https://github.com/ChrisEssomba/Customer_Churn_Prediction"
             websiteLink="https://github.com/ChrisEssomba/Customer_Churn_Prediction"
           />
           <ProjectsCard
-            title="Simulateur de décision de crédit"
-            des="Ce projet combine apprentissage automatique et accessibilité. Grâce à un modèle basé sur un arbre de décision, il évalue l’éligibilité au crédit. Une interface intuitive, développée avec Flask, permet aux utilisateurs d’entrer leurs informations et d’obtenir une réponse instantanée."
-            src={projectThree}
+            title="Modélisation prédictive des décisions de crédit (Regression)"
+            des={`Ce projet vise à identifier les facteurs clés des décisions de crédit, développer un modèle prédictif fiable et proposer une interface intuitive pour évaluer la solvabilité des demandeurs.
+            
+              🔹 Technologies : Python, Pandas, Scikit-learn, Matplotlib, Seaborn, Jupyter Notebook, Flask, Git 
+              `}
+            src={ProjectCreditApproval}
             githubLink="https://github.com/ChrisEssomba/Modelisation-Predictive-Decision-Credit"
             websiteLink={RapportDeProjetLoan}
+          />
+           <ProjectsCard
+            title="Système de Reconnaissance faciale d'employés (Computer Vision)."
+            des={`Un système intelligent basé sur le modèle EfficientNet qui permet d’identifier les employés autorisés et de détecter les intrus, garantissant un accès sécurisé et fluide en entreprise.
+            
+              🔹 Technologies : Python, Tensorflow, tensorboard, Keras, Sckit-learn, OpenCv, Numpy, Pandas, Matplotlib
+              `}
+            src={projectFaceRec}
+            githubLink="https://github.com/ChrisEssomba/AI-powered-employee-recognition-system"
+            websiteLink="https://github.com/ChrisEssomba/AI-powered-employee-recognition-system"
+          />
+           <ProjectsCard
+            title="IA de résumé de texte (NLP)."
+            des={`Un système de résumé automatique utilisant un modèle Transformer entraîné sur un important corpus Samsung, générant des résumés concis et pertinents de textes volumineux.
+
+              🔹 Technologies : Python, Transformers, HuggingFace, PyTorch, Docker, SacreBLEU, Rouge_score, Jupyter Notebook, Git
+              `}
+            src={PtojectSummarizer}
+            githubLink="https://github.com/ChrisEssomba/Text-Summarizer-Project"
+            websiteLink="https://text-summarizer-projectgit.streamlit.app/"
           />
         </div>
         
