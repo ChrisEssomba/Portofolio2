@@ -5,7 +5,7 @@ import { photoID, cv_en, cv_fr} from "../../assets/index"; // <-- Assure-toi que
 
 const LeftBanner = () => {
   const [text] = useTypewriter({
-    words: ["🎯 Le data scientist qui allie rigueur d’ingénieur et curiosité de chercheur.", "Data Scientist.", "Data Analyst.", "Data Engineer.", "Votre futur collaborateur 😉 "],
+    words: ["Le data scientist qui allie rigueur d’ingénieur et curiosité de chercheur.", "Data Scientist.", "Data Analyst.", "Data Engineer.", "Votre futur collaborateur 😉 "],
     loop: false,
     typeSpeed: 20,
     deleteSpeed: 10000000000, // Pour éviter la suppression du texte
