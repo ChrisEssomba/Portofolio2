@@ -42,7 +42,7 @@ const LeftBanner = () => {
         {/* About */}
         <div className="text-base font-bodyFont leading-7 tracking-wide text-white space-y-4 mt-4">
           <p className="font-semibold text-lg text-gray-200">Qui suis je ?</p>
-          <p> Étudiant en dernière année d’école d’ingénieur, spécialisé en Big Data et en intelligence artificielle, avec plus d’un an d’expérience dans le domaine de la recherche appliquée.</p>
+          <p> Un ingénieur passionné par l’intelligence artificielle, en spécialisation Machine Learning & Deep Learning dans le cadre d’un Master en Mathématiques Appliquées à la Data Science, avec deux ans d’expérience en recherche en Data Science.</p>
          
         </div>
 
